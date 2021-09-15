@@ -1,0 +1,60 @@
+body {
+    background-color: lightcoral;
+    text-align: center;
+    padding-top: 800px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+img {
+    width: 400px;
+    padding-top: 100px;
+}
+
+#Welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: linear-gradient(to bottom right, lightcoral, lightblue);
+    display: table;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+}
+
+p {
+    max-width: 800px;
+    font-size:25px;
+    margin: 25px auto;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: black;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+.links:hover{
+    background-color: black;
+    font-size: 25px;
+    color: white;
+}
